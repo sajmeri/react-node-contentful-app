@@ -1,0 +1,21 @@
+{
+  "name": "react-node-contentful-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "proxy": "http://localhost:3001",
+  "scripts": {
+    "start": "node server/index.js",
+    "build": "cd client && npm install && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": "19"
+  }
+}
